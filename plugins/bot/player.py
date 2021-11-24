@@ -111,7 +111,7 @@ async def yplay(_, message: Message):
         data={1:m_audio.audio.title, 2:m_audio.audio.file_id, 3:"telegram", 4:user}
         playlist.append(data)
         if len(playlist) == 1:
-            m_status = await message.reply_text("⚡️")
+            m_status = await message.reply_text("ᴄᴏɴɴᴇᴄᴛɪɴɢ ᴄʜᴀᴛᴛᴇʀꜱ..⚙")
             await mp.download_audio(playlist[0])
             if 1 in RADIO:
                 if group_call:
@@ -160,11 +160,11 @@ async def yplay(_, message: Message):
 
     if type=="youtube" or type=="query":
         if type=="youtube":
-            msg = await message.reply_text("🔍")
+            msg = await message.reply_text("ᴄᴏɴɴᴇᴄᴛɪɴɢ ᴄʜᴀᴛᴛᴇʀꜱ..⚙")
             url=yturl
         elif type=="query":
             try:
-                msg = await message.reply_text("🔍")
+                msg = await message.reply_text("ᴄᴏɴɴᴇᴄᴛɪɴɢ ᴄʜᴀᴛᴛᴇʀꜱ..⚙")
                 ytquery=ysearch
                 results = YoutubeSearch(ytquery, max_results=1).to_dict()
                 url = f"https://youtube.com{results[0]['url_suffix']}"
@@ -207,7 +207,7 @@ async def yplay(_, message: Message):
         group_call = mp.group_call
         client = group_call.client
         if len(playlist) == 1:
-            m_status = await msg.edit("⚡️")
+            m_status = await msg.edit("ᴄᴏɴɴᴇᴄᴛɪɴɢ ᴄʜᴀᴛᴛᴇʀꜱ..⚙")
             await mp.download_audio(playlist[0])
             if 1 in RADIO:
                 if group_call:
