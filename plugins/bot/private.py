@@ -299,6 +299,6 @@ async def set_heroku_var(client, message):
         await mp.delete(message)
         return
     else:
-        k=await message.reply_text("❗ **You Haven't Provided Any Variable, You Should Follow The Correct Format !** \n\nFor Example: \n• `/setvar CHAT_ID=-1001313215676` to change or set CHAT var. \n• `/setvar REPLY_MESSAGE=` to delete REPLY_MESSAGE var.")
+        k=await message.reply_text("❗ **You Haven't Provided Any Variable, You Should Follow The Correct Format..!** \n\nFor Example: \n• `/setvar CHAT_ID=-1001313215676` to change or set CHAT var. \n• `/setvar REPLY_MESSAGE=` to delete REPLY_MESSAGE var.")
         await mp.delete(k)
         await mp.delete(message)
