@@ -29,7 +29,7 @@ CHAT_ID=Config.CHAT_ID
 playlist=Config.playlist
 LOG_GROUP=Config.LOG_GROUP
 
-HOME_TEXT = "👋🏻 **ʜᴇʏ [{}](tg://user?id={})**,\n\nɪ'ᴍ **• 𝗖𝗵𝗮𝘁𝘁𝗲𝗿𝘀 𝗠𝘂𝘀𝗶𝗰 •** \nɪ ᴄᴀɴ ᴘʟᴀʏ 24/7 ʀᴀᴅɪᴏ ᴀɴᴅ ʟɪᴠᴇ ꜱᴏɴɢ ꜱᴛʀᴇᴀᴍꜱ ꜰʀᴏᴍ ʏᴏᴜᴛᴜʙᴇ ɪɴ [ᴄʜᴀᴛᴛᴇʀꜱꜱ](https://t.me/chatterss) ꜱᴜᴘᴇʀɢʀᴏᴜᴘ..!\n\nʜɪᴛ  :  /help\n\nᴅᴇꜱɪɢɴᴇᴅ ʙʏ : [𝗖𝗿𝗲𝗮𝘁𝗼𝗿 𝗣𝗮𝘃𝗮𝗻](https://t.me/itsCrePavan)"
+HOME_TEXT = "👋🏻 **ʜᴇʏ [{}](tg://user?id={})**,\n\nɪ'ᴍ **ᴄʜᴀᴛᴛᴇʀꜱ ᴍᴜꜱɪᴄ ʀᴀᴅɪᴏ** \n**ɪ ᴄᴀɴ ᴘʟᴀʏ 24/7 ʀᴀᴅɪᴏ ᴀɴᴅ ʟɪᴠᴇ ꜱᴏɴɢ ꜱᴛʀᴇᴀᴍꜱ ꜰʀᴏᴍ ʏᴏᴜᴛᴜʙᴇ ɪɴ** [ᴄʜᴀᴛᴛᴇʀꜱꜱ](https://t.me/chatterss) **ꜱᴜᴘᴇʀɢʀᴏᴜᴘ..!**\n\n**ᴅᴇꜱɪɢɴᴇᴅ ʙʏ :** [𝗖𝗿𝗲𝗮𝘁𝗼𝗿 𝗣𝗮𝘃𝗮𝗻](https://t.me/itsCrePavan)"
 HELP_TEXT = """
 💡 --**Setting Up**--:
 
